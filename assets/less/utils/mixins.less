@@ -1,0 +1,23 @@
+/* responsive fonts in "em"
+-----------------------------*/
+.font-size(@size, @font-base: @font-m) {
+  font-size: (@size / @font-base) * 1em;
+}
+
+/* responsive width block
+-----------------------------*/
+.width(@width, @width-container: @max-width-container) {
+  width: (@width / @width-container) * 100%;
+}
+
+/* responsive margin block
+-----------------------------*/
+.margin(@dir, @size, @width-container: @max-width-container) {
+  margin-@{dir}: (@size / @width-container) * 100%
+}
+
+/* responsive padding block
+-----------------------------*/
+.padding(@dir, @size, @width-container: @max-width-container) {
+  padding-@{dir}: (@size / @width-container) * 100%
+}

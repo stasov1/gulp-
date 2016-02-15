@@ -1,0 +1,4 @@
+.git
+.sass-cache
+assets/style.css.map
+node_modules

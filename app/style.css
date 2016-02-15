@@ -1,0 +1,30 @@
+/* Main colors
+---------------------------*/
+/* Fonts sizes
+---------------------------*/
+/* Fonts families
+---------------------------*/
+/* max container width
+---------------------------*/
+/* Breakpoints
+---------------------------*/
+/* responsive fonts in "em"
+-----------------------------*/
+/* responsive width block
+-----------------------------*/
+/* responsive margin block
+-----------------------------*/
+/* responsive padding block
+-----------------------------*/
+/* All extends
+---------------------------*/
+.reset-ul {
+  margin: 0;
+  padding: 0;
+
+  list-style-type: none;
+}
+/* Main fonts page
+-----------------------------*/
+/* fonts icon
+-----------------------------*/
